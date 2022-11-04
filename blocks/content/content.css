@@ -3,3 +3,17 @@
     grid-row-gap: 92px;
     margin-bottom: 92px;
 }
+
+@media screen and (max-width: 896px) {
+    .content {
+        gap: 88px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .content {
+        gap: 64px;
+        margin-bottom: 64px;
+    }
+}

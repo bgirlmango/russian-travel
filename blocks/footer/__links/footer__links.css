@@ -2,3 +2,11 @@
     display: flex;
     gap: 18px;
 }
+
+@media screen and (max-width: 544px) {
+    .footer__links {
+        flex-direction: column;
+        gap: 32px;
+        flex-wrap: wrap;
+    }
+}

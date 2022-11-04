@@ -4,10 +4,30 @@
     display: flex;
     align-items: flex-end;
     gap: 18px;
-    font-family: Inter;
+    font-family: "Inter", sans-serif, arial;
     font-size: 24px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0em;
     text-align: right;
+}
+
+@media screen and (max-width: 1152px) {
+    .header__langs {
+        font-size: 2.34vw;
+        line-height: 2.73vw;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .header__langs {
+        font-size: 3.13vw;
+        line-height: 3.65vw;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .header__langs {
+        font-size: 5.63vw;
+        line-height: 6.25vw;
+    }
 }

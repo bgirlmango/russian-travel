@@ -1,9 +1,37 @@
 .intro__title {
-    font-family: Inter;
+    font-family: "Inter", sans-serif, arial;
     font-size: 54px;
     font-weight: 900;
     line-height: 58px;
     text-align: left;
     max-width: 690px;
     margin: 0 0 40px;
+    padding-left: 148px;
+}
+
+@media screen and (max-width: 1152px) {
+    .intro__title {
+        font-size: 5.27vw;
+        line-height: 5.66vw;
+        margin-bottom: 3.91vw;
+        padding-left: 4.69vw;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .intro__title {
+        font-size: 7.03vw;
+        line-height: 7.55vw;
+        margin-bottom: 5.21vw;
+        padding-left: 3.13vw;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .intro__title {
+        font-size: 10vw;
+        line-height: 10.94vw;
+        margin-bottom: 12.50vw;
+        padding-left: 5vw;
+    }
 }

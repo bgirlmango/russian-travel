@@ -1,10 +1,39 @@
 .lead__caption {
-    font-family: Inter, arial, sanserif;
+    font-family: "Inter", sans-serif, arial;
     font-size: 10px;
     font-weight: 400;
     line-height: 14px;
-    letter-spacing: 1.5px;
-    text-align: left;
     text-transform: uppercase;
-    margin: 4px 0 0;
+    margin: 0 auto;
+    min-width: 320px;
+    width: 984px;
+    letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 1152px) {
+    .lead__caption {
+        font-size: 0.98vw;
+        line-height: 1.37vw;
+        width: 90.63vw;
+        letter-spacing: 0.146vw;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .lead__caption {
+        font-size: 1.30vw;
+        line-height: 1.82vw;
+        width: 100vw;
+        padding-left: 3.13vw;
+        letter-spacing: 0.195vw;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .lead__caption {
+        padding-left: 5vw;
+        font-size: 3.13vw;
+        line-height: 4.38vw;
+        letter-spacing: 0.469vw;
+    }
 }

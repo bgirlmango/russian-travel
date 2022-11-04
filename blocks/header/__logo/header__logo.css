@@ -1,4 +1,25 @@
 .header__logo {
     height: 52px;
-    width: 14.86%;
+    width: 176px;
+}
+
+/*@media screen and (max-width: 1152px) {*/
+/*    .header__logo {*/
+/*        height: 4.10vw;*/
+/*        width: 13.87vw;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 896px) {*/
+/*    .header__logo {*/
+/*        height: 5.47vw;*/
+/*        width: 18.49vw;*/
+/*    }*/
+/*}*/
+
+@media screen and (max-width: 544px) {
+    .header__logo {
+        height: 13.13vw;
+        width: 44.38vw;
+    }
 }

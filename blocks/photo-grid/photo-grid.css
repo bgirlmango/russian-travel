@@ -6,3 +6,33 @@
     gap: 16px;
 
 }
+
+@media screen and (max-width: 1152px) {
+    .photo-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 1.37vw;
+        margin-left: 4.69vw;
+        margin-right: 4.69vw;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 2.08vw;
+        margin-left: 3.13vw;
+        margin-right: 3.13vw;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .photo-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        gap: 3.75vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}

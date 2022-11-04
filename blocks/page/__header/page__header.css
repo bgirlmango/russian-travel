@@ -1,0 +1,25 @@
+.page__header {
+    margin: 28px auto 56px;
+}
+
+@media screen and (max-width: 1152px) {
+    .page__header {
+        margin-top: 2.73vw;
+        margin-bottom: 4.69vw;
+    }
+}
+
+@media screen and (max-width: 869px) {
+    .page__header {
+        margin-top: 3.65vw;
+        margin-bottom: 6.25vw;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .page__header {
+        margin-top: 5vw;
+        margin-bottom: 15vw;
+    }
+}
+

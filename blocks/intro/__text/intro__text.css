@@ -1,0 +1,38 @@
+.intro__text {
+    font-family: "Inter", sans-serif, arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    max-width: 690px;
+    margin: 0 0 33px;
+    padding-left: 148px;
+
+}
+
+@media screen and (max-width: 1152px) {
+    .intro__text {
+        font-size: 1.56vw;
+        line-height: 2.54vw;
+        margin-bottom: 3.22vw;
+        padding-left: 4.69vw;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .intro__text {
+        font-size: 2.08vw;
+        line-height: 3.39vw;
+        margin-bottom: 4.30vw;
+        padding-left: 3.13vw;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .intro__text {
+        font-size: 5vw;
+        line-height: 8.13vw;
+        margin-bottom: 10.63vw;
+        padding-left: 5vw;
+    }
+}

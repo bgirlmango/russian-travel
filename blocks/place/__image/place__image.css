@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 544px) {
     .place__image {
-        width: 320px;
+        width: 100%;
         height: 320px;
     }
 }

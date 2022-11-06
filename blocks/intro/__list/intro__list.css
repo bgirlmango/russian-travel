@@ -2,6 +2,7 @@
     max-width: 690px;
     margin: 17px 0 0;
     padding-left: 148px;
+    list-style: none;
 }
 
 @media screen and (max-width: 1152px) {

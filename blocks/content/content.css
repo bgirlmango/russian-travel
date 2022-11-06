@@ -7,13 +7,13 @@
 @media screen and (max-width: 896px) {
     .content {
         gap: 88px;
-        margin-bottom: 88px;
+        margin-bottom: 11.46vw;
     }
 }
 
 @media screen and (max-width: 544px) {
     .content {
         gap: 64px;
-        margin-bottom: 64px;
+        margin-bottom: 21.7vw;
     }
 }

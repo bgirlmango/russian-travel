@@ -21,7 +21,6 @@
     .lead__title {
         font-size: 12.50vw;
         line-height: 13.02vw;
-        max-width: max-content;
         margin-bottom: 4.17vw;
     }
 }
@@ -31,7 +30,6 @@
         line-height: 13.75vw;
         width: 100%;
         font-size: 12.50vw;
-        max-width: max-content;
         margin-bottom: 5vw;
     }
 }

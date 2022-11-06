@@ -2,6 +2,8 @@
     width: 460px;
     height: 460px;
     margin: 0 auto;
+    object-fit: cover;
+    object-position: center;
 }
 
 @media screen and (max-width: 1152px) {

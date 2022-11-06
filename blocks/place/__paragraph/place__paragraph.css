@@ -4,25 +4,31 @@
     font-weight: 400;
     line-height: 29px;
     text-align: left;
+    margin: 26px 0 0;
 }
 
 @media screen and (max-width: 1152px) {
-    .place__paragraphs {
+    .place__paragraph {
         font-size: 1.76vw;
         line-height: 2.83vw;
     }
 }
 
 @media screen and (max-width: 896px) {
-    .place__paragraphs {
+    .place__paragraph {
         font-size: 2.08vw;
         line-height: 3.39vw;
     }
 }
 
 @media screen and (max-width: 544px) {
-    .place__paragraphs {
+    .place__paragraph {
         font-size: 5vw;
-        line-height: 8.13vw;
+        line-height: 8.1vw;
+        padding-left: 5vw;
     }
+}
+
+.place__paragraph:first-of-type {
+    margin: 0;
 }

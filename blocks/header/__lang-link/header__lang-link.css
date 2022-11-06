@@ -1,0 +1,17 @@
+.header__lang-link {
+    margin: 0 0 5px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.header__lang-link:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 544px) {
+    .header__lang-link {
+        margin-bottom: 2.19vw;
+        margin-left: 0.31vw;
+    }
+}

@@ -9,8 +9,6 @@
     .place {
         grid-template-columns: 42.97vw 44.53vw;
         column-gap: 3.13vw;
-        margin-left: 4.69vw;
-        margin-right: 4.69vw;
     }
 }
 
@@ -18,8 +16,7 @@
     .place {
         grid-template-columns: 42.97vw 45.83vw;
         column-gap: 4.65vw;
-        margin-left: 3.13vw;
-        margin-right: 3.13vw;
+
     }
 }
 

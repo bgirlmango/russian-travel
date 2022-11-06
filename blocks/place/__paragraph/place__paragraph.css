@@ -7,6 +7,10 @@
     margin: 26px 0 0;
 }
 
+.place__paragraph:first-of-type {
+    margin: 0;
+}
+
 @media screen and (max-width: 1152px) {
     .place__paragraph {
         font-size: 1.76vw;
@@ -27,8 +31,4 @@
         line-height: 8.1vw;
         padding-left: 5vw;
     }
-}
-
-.place__paragraph:first-of-type {
-    margin: 0;
 }

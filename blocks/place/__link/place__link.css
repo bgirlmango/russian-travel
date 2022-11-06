@@ -14,7 +14,7 @@
 }
 
 .place__link:hover {
-    opacity: .5;
+    opacity: .8;
 }
 
 @media screen and (max-width: 1152px) {
